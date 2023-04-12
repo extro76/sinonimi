@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INDOVINA IL SINONIMO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game">
+    <h1>INDOVINA IL SINONIMO</h1>
+    <button id="start">GIOCA</button>
+    <div id="gameplay" hidden>
+      <div id="falling-word"></div>
+      <div id="choices">
+        <button class="choice"></button>
+        <button class="choice"></button>
+        <button class="choice"></button>
+      </div>
+    </div>
+    <div id="score-display">Punteggio: <span id="score">0</span></div>
+    <div id="game-over" hidden>
+      <h2>Game Over</h2>
+      <p>Punteggio finale: <span id="final-score"></span></p>
+      <button id="replay">RIGIOCA</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
