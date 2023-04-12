@@ -29,7 +29,7 @@ const sinonimi = [
 "misterioso",
 "umiliato",
 "combattivo",
-"effimero",
+"labile",
 "debole",
 "ingannevole",
 "appoggiare",
