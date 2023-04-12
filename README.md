@@ -1,2 +1,2 @@
 # sinonimi
-Falling Words Game
+A simple Javascript Falling Words Game
